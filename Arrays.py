@@ -5,9 +5,18 @@ import argparse
 
 print ('make an array')
 aa = np.array(np.arange(12)).reshape((6,2))
-print (aa)
+print ('aa=')
+print(aa)
 print('try differnt methods on the array')
+print('multiplication')
+print(aa*2)
+print('exponential')
+print(aa**2)
+print('indexing')
+print(aa[:3, :])
+print('square root')
 print(np.sqrt(aa)) #square root 
+print('flatten')
 print(aa.flatten())
 
 #pickel stuff
